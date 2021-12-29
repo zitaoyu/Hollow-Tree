@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <title>Hollow Tree</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="./entity.js"></script>
+    <script type="text/javascript" src="./attacks.js"></script>
+    <script type="text/javascript" src="./overlay.js"></script>
+    <script type="text/javascript" src="./powerups.js"></script>
+    <script type="text/javascript" src="./assetloader.js"></script>
+    <script type="text/javascript" src="./audioplayer.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./animator.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./scene.js"></script>
+    <script type="text/javascript" src="./items.js"></script>
+    <script type="text/javascript" src="./druid.js"></script>
+    <script type="text/javascript" src="./enemies.js"></script>
+    <script type="text/javascript" src="./bosses.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./mapentities.js"></script>
+    <script type="text/javascript" src="./levels.js"></script>
+</head>
+<body style="text-align: center">
+    <canvas id="gameWorld" tabindex="0" width="1024" height="768"
+            style="background: black; border: 1px solid black; text-align: center;"></canvas>
+    <div>
+        <b>Music:</b>
+        <input type="range" id="musicVolume" min="0" max="1" step="0.001" value="0.15" />
+        <br />
+        <b>Sound:</b>
+        <input type="range" id="soundVolume" min="0" max="1" step="0.001" value="0.3" />
+        <br />
+        <br />
+        <input type="checkbox" id="debug"> Debug <input type="checkbox" id="mute"> Mute
+        <br />
+        <br />
+        <b>Controls:</b> <br />
+        <i>Left</i> - A or Left Arrow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <i>Pause</i> - P or Escape<br />
+        <i>Right</i> - D or Right Arrow &nbsp;&nbsp;&nbsp;
+        <i>Mute</i> - M <br />
+        <i>Jump</i> - Space or Z <br />
+        <i>Knife</i> - C or L <br />
+        <i>Cast Spell</i> - X or J <br />
+        <i>Change Spell</i> - Shift <br />
+
+        <i>Inventory</i> - I to open, R to use selected Item <br />
+        <i>Change Selected Item</i> - Arrow Keys or WASD <br />
+        <br />
+        <i>Hints!</i> <br />
+        Keys only open a single door. <br />
+        You can see how many you have by looking in your inventory. <br />
+        They are used automatically when you walk into a door. <br />
+        Potions are single use and can be used from the inventory screen after you pick them up. <br />
+        If you can't cast spells you haven't found any yet. <br />
+        If you can't attack with the sword, then you forgot to pick it up at the beginning of the level. <br />
+        
+        <br />
+        Music used is by Abstraction who can be found at
+        <a href="http://www.abstractionmusic.com/">www.abstractionmusic.com</a>
+        <br />
+        Created by Zitao Yu, Walter Kagel, Lucas Gomez, and Melinda Tran!
+    </div>
+</body>
+</html>
