@@ -10,7 +10,7 @@ Zitao (Tommy) Yu (zitaoyu)
 Melinda Tran (mtran36)
 
 # Game Website
-https://mtran36.github.io/491GroupProject/
+https://zitaoyu.github.io/Hollow-Tree/
 
 #### Controls
 - A/Left Arrow -> Move Left
